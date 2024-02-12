@@ -16,6 +16,21 @@
   {{title | summary : 60}}
 </p>
 
+<div class="row">
+  <div class="col-md-8 offset-2">
+    <div class="card">
+      <div class="card-header">
+        <p>{{course.title | titlecase}}</p>
+      </div>
+      <div class="card-body">
+        <p><strong>Coursefee </strong>{{course.coursefee | currency : 'INR'}}</p>
+        <p><strong>Rating  </strong>{{course.rating | number : '2.2'}}</p>
+        <p><strong>ReleaseDate  </strong>{{course.releaseDate | date : 'longDate'}}</p>
+        <p><strong>Students </strong>{{course.students}}</p>
+      </div>
+    </div>
+  </div>
+</div>
 <hr>
 <h2 class="bg-primary text-white p-3">Card Task</h2>
 <div class="row">

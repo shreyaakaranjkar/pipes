@@ -9,5 +9,4 @@ export class SummaryPipe implements PipeTransform{
         return value.substring(0,limit) + '....';
         // throw new Error("Method not implemented.");
     }
-    
 }
